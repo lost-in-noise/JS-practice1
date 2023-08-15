@@ -98,3 +98,13 @@
 //     }
 //   }
   
+
+// 9.
+// let variable = 'Mariam';
+
+// let result = (variable === 'Mariam') ? 'true' : 'false';
+
+// console.log(result);
+
+
+// 10.
