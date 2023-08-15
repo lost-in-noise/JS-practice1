@@ -108,3 +108,15 @@
 
 
 // 10.
+// let variable = 'Mariam';
+// let result;
+
+// switch (variable) {
+//   case 'Mariam':
+//     result = 'true';
+//     break;
+//   default:
+//     result = 'false';
+// }
+
+// console.log(result);
