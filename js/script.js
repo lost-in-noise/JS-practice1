@@ -24,14 +24,24 @@
 // console.log(sum);
 
 // 4.
-let array4 = [1, 2, 3, 7, 6, 9];
-let sum = 0;
+// let array4 = [1, 2, 3, 7, 6, 9];
+// let sum = 0;
 
-for (let i = 0; i < array4.length; i++) {
-  sum += array4[i];
-}
+// for (let i = 0; i < array4.length; i++) {
+//   sum += array4[i];
+// }
 
-let average = sum / array4.length;
+// let average = sum / array4.length;
 
-console.log(average);
+// console.log(average);
 
+// 5.
+let user = {
+    firstname: "giorgi",
+    lastname: "smith",
+    age: 25,
+    studentstatus: "active"
+  };
+  
+  console.log(user.studentstatus);
+  
