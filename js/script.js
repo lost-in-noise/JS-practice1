@@ -70,17 +70,31 @@
   
 
 // 7.
-let array = [
-    [2, -3, 5, 10],
-    [25, -24, -11, 100],
-    [-6, -7, 10],
-  ];
+// let array = [
+//     [2, -3, 5, 10],
+//     [25, -24, -11, 100],
+//     [-6, -7, 10],
+//   ];
   
-  for (let i = 0; i < array.length; i++) {
-    for (let j = 0; j < array[i].length; j++) {
-      if (array[i][j] > 0) {
-        console.log(array[i][j]);
-      }
-    }
-  }
+//   for (let i = 0; i < array.length; i++) {
+//     for (let j = 0; j < array[i].length; j++) {
+//       if (array[i][j] > 0) {
+//         console.log(array[i][j]);
+//       }
+//     }
+//   }
+  
+
+// 8.
+// let users = [
+//     {username: 'giorgi', status: false},
+//     {username: 'levani', status: false},
+//     {username: 'anna', status: true}
+//   ];
+  
+//   for (let i = 0; i < users.length; i++) {
+//     if (users[i].status === true) {
+//       console.log(users[i]);
+//     }
+//   }
   
