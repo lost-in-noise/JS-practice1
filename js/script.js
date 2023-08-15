@@ -52,19 +52,35 @@
   
 
 // 6.
-let user = {
-    name: 'giorgi',
-    age: 20,
-    studentstatus: 'active'
-  };
+// let user = {
+//     name: 'giorgi',
+//     age: 20,
+//     studentstatus: 'active'
+//   };
   
-  if (user.age < 18 && user.studentstatus === 'active') {
-    console.log('hello');
-  } else if (user.name === 'Levan') {
-    console.log('hello levani');
-  } else if (user.studentstatus === 'active' || user.age < 25) {
-    console.log('hello world');
-  } else {
-    console.log('error');
+//   if (user.age < 18 && user.studentstatus === 'active') {
+//     console.log('hello');
+//   } else if (user.name === 'Levan') {
+//     console.log('hello levani');
+//   } else if (user.studentstatus === 'active' || user.age < 25) {
+//     console.log('hello world');
+//   } else {
+//     console.log('error');
+//   }
+  
+
+// 7.
+let array = [
+    [2, -3, 5, 10],
+    [25, -24, -11, 100],
+    [-6, -7, 10],
+  ];
+  
+  for (let i = 0; i < array.length; i++) {
+    for (let j = 0; j < array[i].length; j++) {
+      if (array[i][j] > 0) {
+        console.log(array[i][j]);
+      }
+    }
   }
   
