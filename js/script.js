@@ -110,18 +110,18 @@
   
 
 // 9.
-// let variable = 'Mariam';
+// let userName = 'Mariam';
 
-// let result = (variable === 'Mariam') ? 'true' : 'false';
+// let result = (userName === 'Mariam') ? 'true' : 'false';
 
 // console.log(result);
 
 
 // 10.
-// let variable = 'Mariam';
+// let userName = 'Mariam';
 // let result;
 
-// switch (variable) {
+// switch (userName) {
 //   case 'Mariam':
 //     result = 'true';
 //     break;
