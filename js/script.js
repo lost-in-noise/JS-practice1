@@ -1,3 +1,4 @@
+'use strict';
 // დავალება 
 // 1.
 // for (let i = 5; i <= 100; i++) {
@@ -80,6 +81,15 @@
 //     for (let j = 0; j < array[i].length; j++) {
 //       if (array[i][j] > 0) {
 //         console.log(array[i][j]);
+//       }
+//     }
+//   }
+
+// ან 
+// for (let elemn of array) {
+//     for (let item of elemn) {
+//       if (item > 0) {
+//         console.log(item);
 //       }
 //     }
 //   }
